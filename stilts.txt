@@ -1,0 +1,6 @@
+topcat -stilts plot2sky \xpix=1898 ypix=547 \projection=aitoff \legend=false \layer=Mark \in=/home/hpc/atena/jnogue/Documents/Gaia/Python/new_data_pm.csv ifmt=CSV \lon=l lat=b \shading=density densemap=rainbow2 denseflip=true\out = "0.png"
+
+java -jar topcat-full.jar -stilts plot2sky \xpix=1898 ypix=547 \projection=aitoff \legend=false \layer=Mark \in=/home/hpc/atena/jnogue/Documents/Gaia/Data_error_5/new_data_error_5.csv ifmt=CSV \lon=l lat=b \shading=density densemap=rainbow2 denseflip=true out=0.png
+
+
+java -jar topcat-full.jar -stilts plot2sky \xpix=1898 ypix=547 \projection=aitoff \legend=false \layer=Mark \in=/home/hpc/atena/jnogue/Documents/Gaia/Data_error_5/1900000.csv ifmt=CSV \lon=new_l lat=new_b \shading=density densemap=rainbow2 denseflip=true out=1900000A.png
